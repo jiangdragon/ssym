@@ -3,7 +3,7 @@
     <parent>
         <groupId>com.ssym.avivacofco</groupId>
         <artifactId>aviva-cofco-parent</artifactId>
-        <version>${revision}</version>
+        <version>${version}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 

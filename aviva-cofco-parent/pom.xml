@@ -9,20 +9,19 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ssym.avivacofco</groupId>
     <artifactId>aviva-cofco-parent</artifactId>
-    <version>${revision}</version>
+    <version>${version}</version>
     <packaging>pom</packaging>
     <description>中英保险</description>
 
     <properties>
         <!--公共属性部分-->
-        <revision>1.0.0</revision>
-        <bcprov-jdk15on.vision>1.70</bcprov-jdk15on.vision>
-        <maven-shade-plugin.vision>3.2.4</maven-shade-plugin.vision>
-        <hutool.vision>5.8.22</hutool.vision>
-        <apache-poi.vision>5.2.2</apache-poi.vision>
-        <log4j.vision>2.17.1</log4j.vision>
-        <slf4j-api.vision>1.7.36</slf4j-api.vision>
-        <lombok.vision>1.18.28</lombok.vision>
+        <version>1.0.0</version>
+        <bcprov-jdk15on.version>1.70</bcprov-jdk15on.version>
+        <maven-shade-plugin.version>3.2.4</maven-shade-plugin.version>
+        <hutool.version>5.8.22</hutool.version>
+        <apache-poi.version>5.2.2</apache-poi.version>
+        <log4j.version>2.17.1</log4j.version>
+        <slf4j-api.version>1.7.36</slf4j-api.version>
     </properties>
 
     <modules>
@@ -33,46 +32,46 @@
             <dependency>
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
-                <version>${hutool.vision}</version>
+                <version>${hutool.version}</version>
             </dependency>
             <!-- Apache POI for xlsx -->
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi-ooxml</artifactId>
-                <version>${apache-poi.vision}</version>
+                <version>${apache-poi.version}</version>
             </dependency>
             <!-- Apache POI for xls -->
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi</artifactId>
-                <version>${apache-poi.vision}</version>
+                <version>${apache-poi.version}</version>
             </dependency>
             <!-- logging.log4j -->
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-api</artifactId>
-                <version>${log4j.vision}</version>
+                <version>${log4j.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-core</artifactId>
-                <version>${log4j.vision}</version>
+                <version>${log4j.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-slf4j-impl</artifactId>
-                <version>${log4j.vision}</version>
+                <version>${log4j.version}</version>
             </dependency>
             <!-- SLF4J API -->
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
-                <version>${slf4j-api.vision}</version>
+                <version>${slf4j-api.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <version>${lombok.vision}</version>
+                <version>${lombok.version}</version>
                 <scope>provided</scope>
             </dependency>
         </dependencies>

@@ -168,7 +168,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <!-- 使 ${revision} 能够正确解析并插入实际的版本号 -->
+            <!-- 使 ${version} 能够正确解析并插入实际的版本号 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>

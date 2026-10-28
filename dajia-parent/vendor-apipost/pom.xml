@@ -3,7 +3,7 @@
     <parent>
         <groupId>com.ssym.dajia</groupId>
         <artifactId>dajia-parent</artifactId>
-        <version>${revision}</version>
+        <version>${version}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -15,7 +15,7 @@
         <dependency>
             <groupId>com.ssym.dajia</groupId>
             <artifactId>vendor-util</artifactId>
-            <version>${revision}</version>
+            <version>${version}</version>
         </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>

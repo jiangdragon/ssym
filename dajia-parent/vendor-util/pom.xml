@@ -3,7 +3,7 @@
     <parent>
         <groupId>com.ssym.dajia</groupId>
         <artifactId>dajia-parent</artifactId>
-        <version>${revision}</version>
+        <version>${version}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
