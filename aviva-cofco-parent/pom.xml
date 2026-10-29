@@ -15,7 +15,7 @@
 
     <properties>
         <!--公共属性部分-->
-        <version>1.0.0</version>
+        <version>1.0.0-SNAPSHOT</version>
         <bcprov-jdk15on.version>1.70</bcprov-jdk15on.version>
         <maven-shade-plugin.version>3.2.4</maven-shade-plugin.version>
         <hutool.version>5.8.22</hutool.version>
